@@ -1,0 +1,22 @@
+{
+    "name": "Vk Share",
+    "description": "Share anything with your friends",
+    "version": "0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Vk Share",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "https://*/",
+        "http://*/",
+        "storage",
+        "tabs"
+    ],
+    "icons": {
+        "128": "icon128.png"
+    }
+}
